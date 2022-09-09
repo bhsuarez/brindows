@@ -31,12 +31,12 @@ export default class DataService {
               location: 'Chicago',
               period: 'MAR 2022 – PRESENT',
               accomplishments: [
-                'Maturing IT onboarding and offboarding workflows for remote employees',
-                'Established an IT ticketing helpdesk',
+                'Matures IT onboarding and offboarding workflows for remote employees',
+                'Established an IT ticketing helpdesk system using Jira',
                 'Migrated critical business applications from username/password authentication to SAML',
-                'Authored data and information technology policies and procedures',
-                'Set up HIPAA compliance security control enforcement',
-                'Technologies used: Jira, Slack, Dropbox, Office 365, Jamf, InTune',
+                'Authors and reviews data and information technology policies and procedures',
+                'Enforced HIPAA compliance endpoint security controls',
+                'Technologies used: Slack, Dropbox, Office 365, Jamf, InTune, Azure',
               ],
             },
             {
@@ -45,12 +45,12 @@ export default class DataService {
               location: 'Chicago',
               period: 'DEC 2021 – MAR 2022',
               accomplishments: [
-                'Maturing IT onboarding and offboarding workflows for remote employees',
-                'Established an IT ticketing helpdesk',
-                'Migrated critical business applications from username/password authentication to SAML',
-                'Authored data and information technology policies and procedures',
-                'Set up HIPAA compliance security control enforcement',
-                'Technologies used: Jira, Slack, Dropbox, Office 365, Jamf, InTune',
+                'Wrote IT an onboarding off boarding web app using Python and Postgres to enable People Team to drive IT workflows',
+                'Collaborated on executing IT security initiatives for entire company',
+                'Contributed to the integrations squad by troubleshooting product issues for parking operators',
+                'Mentored and trained junior staff'
+                'Negotiated contracts with third-party SaaS'
+                'Technologies used: Python, PostgreSQL, retool, Javascript, Concourse'
               ],
             },
             {
@@ -59,10 +59,12 @@ export default class DataService {
               location: 'Chicago',
               period: 'SEP 2019 – DEC 2021',
               accomplishments: [
-                'One',
-                'Two',
-                'Three',
-                'Four',
+                'Provided world class IT support to entire company during high growth',
+                'Enabled remote employees during COVID through the use of accessible technology'
+                'Established baseline security policies and procedures',
+                'Migrated legacy Wordpress sites to SSO authentication',
+                'Acted as a contributor to the SecOps and DevOps squads',
+                'Technologies used: Wordpress, Confluence, Jira, Workspace ONE, Zoom, Google Workspace'
               ],
             },
             {
@@ -71,10 +73,10 @@ export default class DataService {
               location: 'Evanston, IL',
               period: '2015 - 2019',
               accomplishments: [
-                'One',
-                'Two',
-                'Three',
-                'Four',
+                'Managed office technology in university offices',
+                'Provided white-glove technical support for Univerity executives',
+                'Acted as the IT security liason, responsible for incident response related to endpoints',
+                'Technologies used: Cisco, Active Directory, Qualys'
               ],
             },
           ],
@@ -113,6 +115,14 @@ export default class DataService {
             {
               name: 'iOS & Android',
               progress: 90,
+            },
+            {
+              name: 'Slack',
+              progress: 90,
+            },
+            {
+              name: 'SAML Troubleshooting',
+              progress: 80,
             },
             {
               name: 'Linux',
