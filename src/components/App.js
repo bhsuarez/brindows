@@ -6,6 +6,7 @@ import DataContext from '../contexts/dataContext';
 import Taskbar from './Taskbar';
 import Desktop from './Desktop';
 import { useClippy, ClippyProvider } from '@react95/clippy';
+import '@react95/icons/icons.css';
 
 const dataService = new DataService();
 
@@ -17,8 +18,6 @@ const BodyFontSizeOverride = createGlobalStyle`
 
 const ClippyComponent = () => {
   const { clippy } = useClippy();
-
-  return <Button onClick={() => clippy.play('Wave')}>Hello Clippy!</Button>;
 };
 
 const App = () => (
