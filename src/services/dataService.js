@@ -31,7 +31,7 @@ export default class DataService {
               location: 'Chicago',
               period: 'MAR 2022 – PRESENT',
               accomplishments: [
-                'Matures IT onboarding and offboarding workflows for remote employees',
+                'Matured IT onboarding and offboarding workflows for remote employees',
                 'Established an IT ticketing helpdesk system using Jira',
                 'Migrated critical business applications from username/password authentication to SAML',
                 'Authors and reviews data and information technology policies and procedures',
