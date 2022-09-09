@@ -22,7 +22,7 @@ export default class DataService {
         icon: 'notepad_2',
         content: {
           resumeLink:
-            'https://docs.google.com/document/d/1c_fPwOf4zo-vkSWJiCkSyiH2SZECb6JSeOSmgniaeQY/export?format=pdf',
+            'https://drive.google.com/file/d/1WpFyhLs4jOX9czxFhyHmmT1mVKrarfe8/view?usp=sharing',
           workExperience: [
             {
               jobTitle: 'IT Manager',
