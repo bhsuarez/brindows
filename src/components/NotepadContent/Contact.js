@@ -20,7 +20,7 @@ function Contact({ content }) {
     const mailto = `mailto:${email}`;
     return (
         <div>
-            <h2>Let's have a chat!</h2>
+            <h2>Wanna chat??</h2>
             <p>{emailText}<a href={mailto}>{email}</a></p>
             <p>{socialText}</p>
             <ul>
