@@ -135,7 +135,7 @@ export default class DataService {
               progress: 60,
             },
           ],
-          soft: 'Empathy, Leadership, Public Speaking, Written and Verbal Communication',
+          soft: 'Empathy, Leadership, Collaboration, Public Speaking, Creativity, Written and Verbal Communication',
         },
       },
       {
