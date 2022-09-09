@@ -8,7 +8,7 @@ const startWebamp = () => {
                     artist: "Audiences",
                     title: "Midnight Hound"
                 },
-                url: `${process.env.PUBLIC_URL}/MightnightHound.mp3`,
+                url: `${process.env.PUBLIC_URL}/midnight_hound.mp3`,
                 duration: 213
             }]
         });
