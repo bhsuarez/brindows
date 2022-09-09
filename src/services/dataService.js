@@ -48,8 +48,8 @@ export default class DataService {
                 'Wrote IT an onboarding off boarding web app using Python and Postgres to enable People Team to drive IT workflows',
                 'Collaborated on executing IT security initiatives for entire company',
                 'Contributed to the integrations squad by troubleshooting product issues for parking operators',
-                'Mentored and trained junior staff'
-                'Negotiated contracts with third-party SaaS'
+                'Mentored and trained junior staff',
+                'Negotiated contracts with third-party SaaS',
                 'Technologies used: Python, PostgreSQL, retool, Javascript, Concourse'
               ],
             },
@@ -60,7 +60,7 @@ export default class DataService {
               period: 'SEP 2019 – DEC 2021',
               accomplishments: [
                 'Provided world class IT support to entire company during high growth',
-                'Enabled remote employees during COVID through the use of accessible technology'
+                'Enabled remote employees during COVID through the use of accessible technology',
                 'Established baseline security policies and procedures',
                 'Migrated legacy Wordpress sites to SSO authentication',
                 'Acted as a contributor to the SecOps and DevOps squads',
