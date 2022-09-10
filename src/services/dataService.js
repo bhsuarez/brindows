@@ -20,7 +20,7 @@ export default class DataService {
       {
         id: 'resume',
         name: 'Resume.txt',
-        icon: 'notepad_2',
+        icon: 'notepad',
         content: {
           resumeLink:
             'https://drive.google.com/file/d/1WpFyhLs4jOX9czxFhyHmmT1mVKrarfe8/view?usp=sharing',
@@ -93,7 +93,7 @@ export default class DataService {
       {
         id: 'skills',
         name: 'Skills.txt',
-        icon: 'progman_24',
+        icon: 'shell32_36',
         content: {
           hard: [
             {
