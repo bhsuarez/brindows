@@ -20,7 +20,6 @@ const App = () => (
     <ThemeProvider>
       <GlobalStyle />
       <BodyOverride />
-
       <Desktop />
       <Taskbar />
     </ThemeProvider>

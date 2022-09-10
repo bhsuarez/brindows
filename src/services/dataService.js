@@ -6,7 +6,7 @@ export default class DataService {
       {
         id: 'about',
         name: 'About.txt',
-        icon: 'info_bubble',
+        icon: 'user',
         content: {
           paragraphs: [
             "Hi! My name is Brian and I am currently an IT Manager at CancerIQ. I made this website to showcase my skills as a full stack engineer.",
@@ -93,7 +93,7 @@ export default class DataService {
       {
         id: 'skills',
         name: 'Skills.txt',
-        icon: 'progman_11',
+        icon: 'progman_24',
         content: {
           hard: [
             {
@@ -151,7 +151,7 @@ export default class DataService {
       {
         id: 'contact',
         name: 'Contact.txt',
-        icon: 'inetcfg_2301',
+        icon: 'microsoft_exchange',
         content: {
           emailText:
             'If you want to contact me, please do not hesistate! ',
