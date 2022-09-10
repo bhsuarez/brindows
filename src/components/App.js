@@ -17,7 +17,7 @@ const BodyOverride = createGlobalStyle`
 
 const App = () => (
   <DataContext.Provider value={dataService}>
-    <ThemeProvider>
+    <ThemeProvider theme={{theme:'brick'}}>
       <GlobalStyle />
       <BodyOverride />
       <Desktop />
