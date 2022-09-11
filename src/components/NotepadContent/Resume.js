@@ -11,7 +11,7 @@ function Resume({ content }) {
 
   return (
     <div>
-      <h2>Work Experience</h2>
+      <h2>Recent Experience</h2>
       {workExperience.map((exp, idx) => (
         <div key={idx}>
           <p>
