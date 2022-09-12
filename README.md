@@ -1,5 +1,7 @@
 # Portfolio
 My portfolio website in old-school Windows95 style 
 
-## Credits
-Thank you to [insafkhamzin.com](https://insafkhamzin.com/) for the React structure
+# Stack
+React [thanks to React95 for the components](https://github.com/React95/React95)
+Docker for containerization
+Node.js for backend server
