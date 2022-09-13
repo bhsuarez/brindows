@@ -3,7 +3,7 @@ import { GlobalStyle, ThemeProvider } from '@react95/core';
 import { createGlobalStyle } from 'styled-components';
 import DataService from '../services/dataService';
 import DataContext from '../contexts/dataContext';
-import { useClippy, ClippyProvider, AGENTS } from '@react95/clippy';
+import { ClippyProvider, AGENTS } from '@react95/clippy';
 import Taskbar from './Taskbar';
 import Desktop from './Desktop';
 
