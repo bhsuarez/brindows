@@ -3,7 +3,7 @@ FROM node:16
 # set working directory
 WORKDIR /app
 
-EXPOSE 80
+EXPOSE 1998
 
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /app/node_modules/.bin:$PATH

@@ -27,7 +27,7 @@ function Explorer({ items, closeExplorer, openNotepad, isMobile }) {
                 { name: 'Help', list: [] },
             ]}>
             <Frame
-                bg="white"
+                bg="#D4FEE9"
                 boxShadow="in"
                 height="100%"
             >
