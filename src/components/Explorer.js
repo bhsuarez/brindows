@@ -28,7 +28,7 @@ function Explorer({ items, closeExplorer, openNotepad, isMobile }) {
             ]}>
             <Frame
                 bg="#D4FEE9"
-                boxShadow="out"
+                boxShadow="in"
                 height="100%"
             >
                 <FilesWrapper>
