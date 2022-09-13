@@ -9,7 +9,7 @@ export default class DataService {
         icon: 'user',
         content: {
           paragraphs: [
-            "Hi! My name is Brian and I am currently an IT Manager at CancerIQ. I made this website to showcase my skills as a full stack engineer.",
+            "Hi! My name is Brian and I am currently an IT Manager at CancerIQ. I made this website to showcase my skills as a full stack developer.",
             "This is the first React app I have ever made, so I hope you like it! I plan to include not just my professional work, but also my personal work. ",
             "Take a listen to a song I wrote with my best friends in a group called Audiences.",
             'Currenly I live in Chicago and enjoy all types of music, art, and food!',
@@ -121,7 +121,7 @@ export default class DataService {
               progress: 90,
             },
             {
-              name: 'SAML Troubleshooting',
+              name: 'Python',
               progress: 80,
             },
             {
@@ -129,7 +129,7 @@ export default class DataService {
               progress: 80,
             },
             {
-              name: 'Python',
+              name: 'Java',
               progress: 70,
             },
             {

@@ -18,7 +18,7 @@ function Explorer({ items, closeExplorer, openNotepad, isMobile }) {
             closeModal={closeExplorer}
             style={{
                 left: isMobile ? '5%' : '15%',
-                top: '30%',
+                top: '40%',
                 width: isMobile ? '90%' : 400,
             }}
             menu={[
@@ -27,8 +27,8 @@ function Explorer({ items, closeExplorer, openNotepad, isMobile }) {
                 { name: 'Help', list: [] },
             ]}>
             <Frame
-                bg="white"
-                boxShadow="in"
+                bg="#D4FEE9"
+                boxShadow="out"
                 height="100%"
             >
                 <FilesWrapper>

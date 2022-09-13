@@ -8,7 +8,7 @@ const StyledItem = styled.div`
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-	width: 25%;
+	width: 50%;
 	padding: 10px 0;
 `;
 
