@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "express": "^4.18.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
@@ -15,7 +16,7 @@
     "webamp": "^1.4.1-beta01"
   },
   "scripts": {
-    "start": "PORT=1998 react-scripts start",
+    "start": "PORT=80 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -40,5 +41,16 @@
   "devDependencies": {
     "gh-pages": "^3.0.0"
   },
-  "homepage": "https://bhsuarez.com"
+  "homepage": "https://bhsuarez.com",
+  "description": "My portfolio website in old-school Windows95 style",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhsuarez/brindows.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhsuarez/brindows/issues"
+  }
 }

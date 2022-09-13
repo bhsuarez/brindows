@@ -28,14 +28,6 @@ function Shortcuts({ openExplorer }) {
                 />
                 <div>Music</div>
             </StyledShorcut>
-            <StyledShorcut>
-                <Icon
-                    className="pointer"
-                    name="media_cd"
-                    onClick={()=>startWebamp()}
-                />
-                <div>Music 2</div>
-            </StyledShorcut>
         </div>
     )
 }
