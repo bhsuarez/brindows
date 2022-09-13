@@ -28,7 +28,6 @@ function Shortcuts({ openExplorer }) {
                 />
                 <div>Music</div>
             </StyledShorcut>
-            </StyledShorcut>
         </div>
     )
 }
