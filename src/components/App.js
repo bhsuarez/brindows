@@ -3,7 +3,6 @@ import { GlobalStyle, ThemeProvider } from '@react95/core';
 import { createGlobalStyle } from 'styled-components';
 import DataService from '../services/dataService';
 import DataContext from '../contexts/dataContext';
-import { ClippyProvider, AGENTS } from '@react95/clippy';
 import Taskbar from './Taskbar';
 import Desktop from './Desktop';
 
@@ -19,8 +18,6 @@ const BodyOverride = createGlobalStyle`
 
 const App = () => (
   <DataContext.Provider value={dataService}>
-  <ClippyProvider agentName={AGENTS.ROCKY}>
-  </ClippyProvider>
       <ThemeProvider>
         <GlobalStyle />
         <BodyOverride />

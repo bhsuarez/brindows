@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react95/clippy": "^1.0.9",
     "@react95/core": "^2.10.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -42,7 +41,7 @@
   "devDependencies": {
     "gh-pages": "^3.0.0"
   },
-  "homepage": "https://bhsuarez.com",
+  "homepage": "http://bhsuarez.com",
   "description": "My portfolio website in old-school Windows95 style",
   "main": "index.js",
   "repository": {
