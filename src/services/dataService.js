@@ -117,15 +117,19 @@ export default class DataService {
               progress: 90,
             },
             {
-              name: 'Slack',
+              name: 'Python',
               progress: 90,
             },
             {
-              name: 'Python',
+              name: 'Django',
               progress: 80,
             },
             {
-              name: 'Linux',
+              name: 'HTML/CSS',
+              progress: 80,
+            },
+            {
+              name: 'Javascript',
               progress: 80,
             },
             {
@@ -133,7 +137,7 @@ export default class DataService {
               progress: 70,
             },
             {
-              name: 'AWS/Azure',
+              name: 'AWS',
               progress: 70,
             },
             {
@@ -142,6 +146,10 @@ export default class DataService {
             },
             {
               name: 'Docker',
+              progress: 60,
+            },
+            {
+              name: 'Terraform',
               progress: 60,
             },
           ],
@@ -165,10 +173,6 @@ export default class DataService {
             {
               name: 'FaGithub',
               link: 'https://github.com/bhsuarez',
-            },
-            {
-              name: 'FaInstagram',
-              link: 'https://www.instagram.com/bhsuarez',
             },
             {
               name: 'FaTwitter',
