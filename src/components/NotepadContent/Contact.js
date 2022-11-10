@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaMedium } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaMedium, FaMastodon } from 'react-icons/fa'
 
-const Icons = { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaMedium };
+const Icons = { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaMedium, FaMastodon };
 
 
 const StyledItem = styled.li`
@@ -29,7 +29,7 @@ function Contact({ content }) {
                         const Icon = Icons[s.name];
                         return (
                             <StyledItem key={idx}>
-                                <StyledLink href={s.link} target="_blank" rel="noopener noreferrer">
+                                <StyledLink href={s.link} target="_blank" rel="me">
                                     <Icon />
                                 </StyledLink>
                             </StyledItem>

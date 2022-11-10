@@ -175,8 +175,8 @@ export default class DataService {
               link: 'https://github.com/bhsuarez',
             },
             {
-              name: 'FaTwitter',
-              link: 'https://twitter.com/bhsuarez',
+              name: 'FaMastodon',
+              link: 'https://infosec.exchange/@bhsuarez',
             },
           ],
         },
