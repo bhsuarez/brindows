@@ -3,3 +3,4 @@
 /src/.DS_Store
 /app/node_modules
 commands.txt
+/.cert/
