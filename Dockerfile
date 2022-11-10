@@ -18,4 +18,4 @@ RUN npm install react-scripts@3.4.1 -g --silent
 COPY . ./
 
 # start app
-CMD ["HTTPS=true", "SSL_CRT_FILE=.cert/server.crt", "SSL_KEY_FILE=.cert/server.key", "npm", "start"]
+CMD ["npm", "start"]
