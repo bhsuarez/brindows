@@ -10,9 +10,9 @@ export default class DataService {
         content: {
           paragraphs: [
             "Hi! My name is Brian and I am currently an IT Manager at CancerIQ. I made this website to showcase my skills as a full stack developer.",
-            "This is the first React app I have ever made, so I hope you like it! I plan to include not just my professional work, but also my personal work. ",
-            "Take a listen to a song I wrote with my best friends in a group called Audiences.",
-            'Currenly I live in Chicago and enjoy all types of music, art, and food!',
+            "You can find my resume, skills, and ways to contact me by using the Explorer program here.",
+            "Also, you can take a listen to a song I wrote with my best friends in a group called Audiences. We are also available on all streaming services.",
+            'Currently I live in Chicago and enjoy all types of music, art, and food!',
             'Salutations!',
           ],
         },
