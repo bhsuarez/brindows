@@ -1,18 +1,23 @@
-# fly.toml file generated for summer-sunset-2025 on 2023-01-28T12:20:03-06:00
+# fly.toml file generated for lively-water-7363 on 2023-01-28T13:19:18-06:00
 
-app = "summer-sunset-2025"
+app = "lively-water-7363"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [env]
+  CHOKIDAR_USEPOLLING = "true"
 
 [experimental]
   auto_rollback = true
 
+[mounts]
+  destination = "/"
+  source = "brindows_app_data"
+
 [[services]]
   http_checks = []
-  internal_port = 8080
+  internal_port = 80
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
@@ -22,13 +27,8 @@ processes = []
     type = "connections"
 
   [[services.ports]]
-    force_https = true
     handlers = ["http"]
     port = 80
-
-  [[services.ports]]
-    handlers = ["tls", "http"]
-    port = 443
 
   [[services.tcp_checks]]
     grace_period = "1s"
