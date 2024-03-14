@@ -9,10 +9,10 @@ export default class DataService {
         icon: 'user',
         content: {
           paragraphs: [
-            "Hi! My name is Brian and I am currently an IT Manager at CancerIQ.",
+            "Hi! My name is Brian and I am currently an IT Manager at SpotHero.",
             "You can find my resume, skills, and ways to contact me by using the Explorer program here.",
             "Also, you can take a listen to a song I wrote with my best friends in a group called Audiences. We are also available on all streaming services.",
-            'Currently I live in Chicago and enjoy all types of music, art, and food! Go Bulls!',
+            'Currently I live in Chicago and enjoy all types of music, art, and food!',
             'Salutations!',
           ],
         },
@@ -25,15 +25,22 @@ export default class DataService {
           resumeLink:
             'https://drive.google.com/file/d/1WpFyhLs4jOX9czxFhyHmmT1mVKrarfe8/view?usp=sharing',
           workExperience: [
+          {
+              jobTitle: 'IT Manager',
+              company: 'SpotHero',
+              location: 'Chicago',
+              period: 'NOV 2023 – PRESENT',
+              accomplishments: [
+                'I lead an amazing and awesome team of IT Engineers in the greatest city in the world.',
+              ],
+            },
             {
               jobTitle: 'IT Manager',
               company: 'CancerIQ',
               location: 'Chicago',
-              period: 'MAR 2022 – PRESENT',
+              period: 'MAR 2022 – NOV 2023',
               accomplishments: [
-                'Matured IT onboarding and offboarding workflows for remote employees',
-                'Established an IT ticketing helpdesk system using Jira',
-                'Migrated critical business applications from username/password authentication to SAML',
+                'Led a SOC 2 Type 2 audit for the company',
                 'Authors and reviews data and information technology policies and procedures',
                 'Enforced HIPAA compliance endpoint security controls',
                 'Technologies used: Slack, Dropbox, Office 365, Jamf, InTune, Azure',
