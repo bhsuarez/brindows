@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for brindows on 2024-10-19T19:01:16-05:00
+# fly.toml app configuration file generated for brindows-frosty-dust-5847 on 2024-10-20T14:52:13-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'brindows'
+app = 'brindows-frosty-dust-5847'
 primary_region = 'ord'
 
 [build]
