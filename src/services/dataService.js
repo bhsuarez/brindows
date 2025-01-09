@@ -10,7 +10,7 @@ export default class DataService {
         content: {
           paragraphs: [
             "Hi! My name is Brian and I am currently an IT Manager at SpotHero.",
-            "You can find my resume, skills, and ways to contact me by using the Explorer program here.",
+            "You can find my resume, skills, and ways to contact me here.",
             "Also, you can take a listen to a song I wrote with my best friends in a group called Audiences. We are also available on all streaming services.",
             'Currently I live in Chicago and enjoy all types of music, art, and food!',
             'Salutations!',
