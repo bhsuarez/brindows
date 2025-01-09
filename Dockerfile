@@ -1,21 +1,25 @@
-FROM node:16
+# Build stage
+FROM node:16 as build
 
-# set working directory
 WORKDIR /app
+
+# Install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy source and build
+COPY . ./
+RUN npm run build
+
+# Production stage
+FROM nginx:alpine
+
+# Copy built assets from build stage
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Add nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
-
-# install app dependencies
-COPY package.json ./
-COPY package-lock.json ./
-RUN npm install --silent
-RUN npm install react-scripts@3.4.1 -g --silent
-
-# add app
-COPY . ./
-
-# start app
-CMD ["npm", "start"]
+CMD ["nginx", "-g", "daemon off;"]
