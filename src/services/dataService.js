@@ -90,11 +90,10 @@ export default class DataService {
           education: [
             {
               credit: 'Bachelor of Information Systems',
-              place: 'Northwestern University',
-              gpa: '3.7/4.0 GPA',
-              period: '2015-2020',
+              place: 'Northwestern University'
             },
           ],
+          citizenship: ["United States", "European Union"]
         },
       },
       {
