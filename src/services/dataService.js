@@ -22,79 +22,94 @@ export default class DataService {
         name: 'Resume.txt',
         icon: 'notepad',
         content: {
-          resumeLink:
-            'https://drive.google.com/file/d/1h57v4It1PIVqoLuZfP49AWnWmYDuyQAl/view?usp=share_link',
-          workExperience: [
-          {
-              jobTitle: 'IT Manager',
-              company: 'SpotHero',
-              location: 'Chicago',
-              period: 'NOV 2023 – PRESENT',
-              accomplishments: [
-                'I lead an amazing and awesome team of IT Engineers in the greatest city in the world.',
-              ],
-            },
-            {
-              jobTitle: 'IT Manager',
-              company: 'CancerIQ',
-              location: 'Chicago',
-              period: 'MAR 2022 – NOV 2023',
-              accomplishments: [
-                'Led a SOC 2 Type 2 audit for the company',
-                'Authors and reviews data and information technology policies and procedures',
-                'Enforced HIPAA compliance endpoint security controls',
-                'Technologies used: Slack, Dropbox, Office 365, Jamf, InTune, Azure',
-              ],
-            },
-            {
-              jobTitle: 'IT Squad Lead',
-              company: 'SpotHero',
-              location: 'Chicago',
-              period: 'DEC 2021 – MAR 2022',
-              accomplishments: [
-                'Wrote IT an onboarding off boarding web app using Python and Postgres to enable People Team to drive IT workflows',
-                'Collaborated on executing IT security initiatives for entire company',
-                'Contributed to the integrations squad by troubleshooting product issues for parking operators',
-                'Mentored and trained junior staff',
-                'Negotiated contracts with third-party SaaS',
-                'Technologies used: Python, PostgreSQL, retool, Javascript, Concourse'
-              ],
-            },
-            {
-              jobTitle: 'Senior IT Engineer',
-              company: 'SpotHero',
-              location: 'Chicago',
-              period: 'SEP 2019 – DEC 2021',
-              accomplishments: [
-                'Provided world class IT support to entire company during high growth',
-                'Enabled remote employees during COVID through the use of accessible technology',
-                'Established baseline security policies and procedures',
-                'Migrated legacy Wordpress sites to SSO authentication',
-                'Acted as a contributor to the SecOps and DevOps squads',
-                'Technologies used: Wordpress, Confluence, Jira, Workspace ONE, Zoom, Google Workspace'
-              ],
-            },
-            {
-              jobTitle: 'Sr. Distributed Support Specialist',
-              company: 'Northwestern University',
-              location: 'Evanston, IL',
-              period: '2015 - 2019',
-              accomplishments: [
-                'Managed office technology in university offices',
-                'Provided white-glove technical support for Univerity executives',
-                'Acted as the IT security liason, responsible for incident response related to endpoints',
-                'Technologies used: Cisco, Active Directory, Qualys'
-              ],
-            },
-          ],
-          education: [
-            {
-              credit: 'Bachelor of Information Systems',
-              place: 'Northwestern University'
-            },
-          ],
-          citizenship: ["United States", "European Union"]
-        },
+  "resumeLink": "https://drive.google.com/file/d/1WpFyhLs4jOX9czxFhyHmmT1mVKrarfe8/view?usp=sharing",
+  "profile": "A security-focused and empathetic IT leader with over a decade of diverse experience in higher education, municipal, small business, health, and transportation startups. Skilled in aligning technology with business needs, driving cybersecurity initiatives, and leading teams in both strategic and hands-on roles. Passionate about implementing scalable IT solutions, fostering innovation, and delivering exceptionally secure user experiences.",
+  "keyAchievements": [
+    "Recognized as a 'Best Tech Manager' Finalist by Tech in Motion Chicago; featured speaker at the 'Best Places to Work Chicago' event, celebrating IT leadership and innovation.",
+    "Directed a distributed IT team across the U.S. and Canada, achieving $30,000 in annual cost savings through vendor management and tool consolidation.",
+    "Spearheaded a successful SOC 2 Type 2 audit implementation for a healthcare startup, overseeing security infrastructure, including SSO, MDM, and compliance policies.",
+    "Automated manual IT processes, saving 3 hours per week in onboarding/offboarding tasks through script-driven workflows.",
+    "Delivered technical support for C-level executives, managing critical security incidents and high-priority escalations with precision."
+  ],
+  "workExperience": [
+    {
+      "jobTitle": "IT Manager",
+      "company": "SpotHero",
+      "location": "Chicago",
+      "period": "NOV 2023 – PRESENT",
+      "accomplishments": [
+        "Leads a distributed IT team across the U.S. and Canada, driving operational excellence and implementing automated workflows that helped reduce onboarding and offboarding time by 3 hours weekly.",
+        "Spearheads IT strategy, aligning technology initiatives with company goals, focusing on security, scalability, and user satisfaction.",
+        "Directs IT compliance efforts for PCI DSS, maintaining industry standards and certification.",
+        "Contributes to drafting and refining SOC 2 Type 2 policies, aligning IT operations with compliance standards and enhancing the organization’s security posture.",
+        "Developed and deployed a role-based access control (RBAC) system for company-wide SaaS platforms, enhancing security and streamlining access."
+      ]
+    },
+    {
+      "jobTitle": "IT Manager",
+      "company": "CancerIQ",
+      "location": "Chicago",
+      "period": "MAR 2022 – NOV 2023",
+      "accomplishments": [
+        "Established the company’s IT infrastructure and processes as the first IT hire.",
+        "Led critical components of SOC 2 Type 2 audit, including implementing MDM solutions, SSO configurations, and creating security policies.",
+        "Developed and delivered HIPAA training content, improving compliance and staff awareness.",
+        "Negotiated contract terms and secured favorable pricing with IT vendors."
+      ]
+    },
+    {
+      "jobTitle": "IT Squad Lead",
+      "company": "SpotHero",
+      "location": "Chicago",
+      "period": "DEC 2021 – MAR 2022",
+      "accomplishments": [
+        "Directed a distributed team of IT engineers across Canada and the U.S., ensuring high performance and collaboration.",
+        "Designed and implemented corporate IT strategy, focusing on operational efficiency and security.",
+        "Delivered a web application using Python for SaaS account provisioning and established a robust RBAC system."
+      ]
+    },
+    {
+      "jobTitle": "Senior IT Engineer",
+      "company": "SpotHero",
+      "location": "Chicago",
+      "period": "SEP 2019 – DEC 2021",
+      "accomplishments": [
+        "Enabled remote employees during COVID through accessible technology.",
+        "Established baseline security policies and procedures.",
+        "Migrated legacy Wordpress sites to SSO authentication."
+      ]
+    },
+    {
+      "jobTitle": "Senior Distributed Support Specialist",
+      "company": "Northwestern University",
+      "location": "Evanston, IL",
+      "period": "2015 - 2019",
+      "accomplishments": [
+        "Provided white-glove technical support for university executives.",
+        "Acted as the IT security liaison, responsible for incident response related to endpoints."
+      ]
+    }
+  ],
+  "technicalSkills": [
+    "Identity & Access Management: OneLogin SSO, AWS Identity Center, Google Cloud Identity",
+    "Collaboration: Slack, Microsoft Teams, Google Workspace, Zoom Rooms",
+    "Scripting: Python, Bash, PowerShell",
+    "Compliance & Security: SOC 2, PCI DSS, Security awareness training"
+  ],
+  "certifications": [
+    "CompTIA Security+",
+    "CISSP (In Progress)"
+  ],
+  "education": [
+    {
+      "credit": "Bachelor of Information Systems",
+      "place": "Northwestern University",
+      "period": "2015-2020",
+      "gpa": "3.7/4.0 GPA"
+    }
+  ],
+  "citizenship": ["United States", "European Union"]
+},
       },
       {
         id: 'skills',
