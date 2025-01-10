@@ -40,6 +40,25 @@ function Resume({ content }) {
 
       <hr />
 
+      <h2>Speaking Engagements</h2>
+      {speakingEngagements.map((engagement, idx) => (
+        <div key={idx}>
+          <p>
+            <b>{engagement.title}</b>
+          </p>
+          <p>{engagement.description}</p>
+          <p>{engagement.date}</p>
+          <p>
+            <a href={engagement.link} target="_blank" rel="noopener noreferrer">
+              Watch Video
+            </a>
+          </p>
+          <br />
+        </div>
+      ))}
+
+      <hr />
+
       <h2>Technical Skills</h2>
       <ul>
         {technicalSkills.map((skill, idx) => (

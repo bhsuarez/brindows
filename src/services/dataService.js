@@ -90,6 +90,14 @@ export default class DataService {
       ]
     }
   ],
+   "speakingEngagements": [
+      {
+        "title": 'Best Places to Work Chicago',
+        "description": 'Featured speaker at the "Best Places to Work Chicago" event, celebrating IT leadership and innovation.',
+        "date": '3 October 2024',
+        "link": 'https://www.youtube.com/watch?v=Bc6Lb1y1lr8'
+      },
+    ],
   "technicalSkills": [
     "Identity & Access Management: OneLogin SSO, AWS Identity Center, Google Cloud Identity",
     "Collaboration: Slack, Microsoft Teams, Google Workspace, Zoom Rooms",
