@@ -7,7 +7,7 @@ const StyledLink = styled.a`
 `;
 
 function Resume({ content }) {
-  const { workExperience, education, resumeLink } = content;
+  const { workExperience, education, resumeLink, technicalSkills, certifications, citizenship } = content;
 
   return (
     <div>
@@ -41,6 +41,39 @@ function Resume({ content }) {
           <br />
         </div>
       ))}
+
+      <hr />
+
+      <h2>Technical Skills</h2>
+      <h3>Hard Skills</h3>
+      <ul>
+        {technicalSkills.hard.map((skill, idx) => (
+          <li key={idx}>
+            {skill.name}: {skill.progress}%
+          </li>
+        ))}
+      </ul>
+      <h3>Soft Skills</h3>
+      <p>{technicalSkills.soft}</p>
+
+      <hr />
+
+      <h2>Certifications</h2>
+      <ul>
+        {certifications.map((cert, idx) => (
+          <li key={idx}>{cert}</li>
+        ))}
+      </ul>
+
+      <hr />
+
+      <h2>Citizenship</h2>
+      <ul>
+        {citizenship.map((cit, idx) => (
+          <li key={idx}>{cit}</li>
+        ))}
+      </ul>
+
       <StyledLink href={resumeLink} download>
         <Button style={{ fontSize: '14px' }} className="pointer">
           Download Resume
