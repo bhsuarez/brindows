@@ -45,16 +45,13 @@ function Resume({ content }) {
       <hr />
 
       <h2>Technical Skills</h2>
-      <h3>Hard Skills</h3>
       <ul>
-        {technicalSkills.hard.map((skill, idx) => (
+        {technicalSkills.map((skill, idx) => (
           <li key={idx}>
             {skill.name}: {skill.progress}%
           </li>
         ))}
       </ul>
-      <h3>Soft Skills</h3>
-      <p>{technicalSkills.soft}</p>
 
       <hr />
 
