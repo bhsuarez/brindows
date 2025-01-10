@@ -34,10 +34,6 @@ function Resume({ content }) {
             <b>{ed.credit}</b>
           </p>
           <p>{ed.place}</p>
-          <p>
-            <b>{ed.gpa}</b>
-          </p>
-          <p>{ed.period}</p>
           <br />
         </div>
       ))}
@@ -47,9 +43,7 @@ function Resume({ content }) {
       <h2>Technical Skills</h2>
       <ul>
         {technicalSkills.map((skill, idx) => (
-          <li key={idx}>
-            {skill.name}: {skill.progress}%
-          </li>
+          <li key={idx}>{skill}</li>
         ))}
       </ul>
 
