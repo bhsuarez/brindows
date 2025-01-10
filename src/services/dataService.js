@@ -22,7 +22,7 @@ export default class DataService {
         name: 'Resume.txt',
         icon: 'notepad',
         content: {
-  "resumeLink": "https://drive.google.com/file/d/1WpFyhLs4jOX9czxFhyHmmT1mVKrarfe8/view?usp=sharing",
+  "resumeLink": "https://drive.google.com/file/d/1h57v4It1PIVqoLuZfP49AWnWmYDuyQAl/view?usp=share_link",
   "profile": "A security-focused and empathetic IT leader with over a decade of diverse experience in higher education, municipal, small business, health, and transportation startups. Skilled in aligning technology with business needs, driving cybersecurity initiatives, and leading teams in both strategic and hands-on roles. Passionate about implementing scalable IT solutions, fostering innovation, and delivering exceptionally secure user experiences.",
   "keyAchievements": [
     "Recognized as a 'Best Tech Manager' Finalist by Tech in Motion Chicago; featured speaker at the 'Best Places to Work Chicago' event, celebrating IT leadership and innovation.",
