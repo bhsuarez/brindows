@@ -7,7 +7,7 @@ const StyledLink = styled.a`
 `;
 
 function Resume({ content }) {
-  const { workExperience, education, resumeLink, technicalSkills, certifications, citizenship } = content;
+  const { workExperience, education, resumeLink, speakingEngagements, technicalSkills, certifications, citizenship } = content;
 
   return (
     <div>
