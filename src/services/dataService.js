@@ -191,7 +191,7 @@ export default class DataService {
         icon: 'microsoft_exchange',
         content: {
           emailText:
-            'If you want to contact me, please do not hesistate! ',
+            'If you want to contact me, please do not hesitate! ',
           email: 'me@bhsuarez.com',
           socialText: 'Or you can reach out through social media:',
           social: [
@@ -202,6 +202,10 @@ export default class DataService {
             {
               name: 'FaGithub',
               link: 'https://github.com/bhsuarez',
+            },
+            {
+              name: 'FaBluesky',
+              link: 'https://bsky.app/profile/bhsuarez.com',
             },
             {
               name: 'FaMastodon',
