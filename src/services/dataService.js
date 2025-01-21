@@ -204,12 +204,8 @@ export default class DataService {
               link: 'https://github.com/bhsuarez',
             },
             {
-              name: 'FaBluesky',
-              link: 'https://bsky.app/profile/bhsuarez.com',
-            },
-            {
               name: 'FaMastodon',
-              link: 'https://infosec.exchange/@bhsuarez',
+              link: 'https://suarez.social/@bh',
             }
           ],
         },
