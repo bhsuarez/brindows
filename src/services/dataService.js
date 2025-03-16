@@ -138,19 +138,15 @@ export default class DataService {
               progress: 90,
             },
             {
-              name: 'Cloud Networking',
+              name: 'Identity and Access Management',
               progress: 90,
             },
             {
-              name: 'iOS & Android',
+              name: 'Single Sign On',
               progress: 90,
             },
             {
               name: 'Python',
-              progress: 90,
-            },
-            {
-              name: 'Django',
               progress: 80,
             },
             {
