@@ -150,7 +150,7 @@ export default class DataService {
               progress: 80,
             },
             {
-              name: 'HTML/CSS',
+              name: 'Retool',
               progress: 80,
             },
             {
@@ -158,7 +158,7 @@ export default class DataService {
               progress: 80,
             },
             {
-              name: 'Java',
+              name: 'SAML and SCIM',
               progress: 70,
             },
             {
@@ -172,11 +172,7 @@ export default class DataService {
             {
               name: 'Docker',
               progress: 60,
-            },
-            {
-              name: 'Terraform',
-              progress: 60,
-            },
+            }
           ],
           soft: 'Empathy, Leadership, Collaboration, Public Speaking, Creativity, Written and Verbal Communication',
         },
