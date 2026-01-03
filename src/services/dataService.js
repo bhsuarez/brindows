@@ -25,11 +25,11 @@ export default class DataService {
   "resumeLink": "https://drive.google.com/file/d/1h57v4It1PIVqoLuZfP49AWnWmYDuyQAl/view?usp=share_link",
   "profile": "A security-focused and empathetic IT leader with over a decade of diverse experience in higher education, municipal, small business, health, and transportation startups. Skilled in aligning technology with business needs, driving cybersecurity initiatives, and leading teams in both strategic and hands-on roles. Passionate about implementing scalable IT solutions, fostering innovation, and delivering exceptionally secure user experiences.",
   "keyAchievements": [
-    "Recognized as a 'Best Tech Manager' Finalist by Tech in Motion Chicago; featured speaker at the 'Best Places to Work Chicago' event, celebrating IT leadership and innovation.",
     "Directed a distributed IT team across the U.S. and Canada, achieving $30,000 in annual cost savings through vendor management and tool consolidation.",
     "Spearheaded a successful SOC 2 Type 2 audit implementation for a healthcare startup, overseeing security infrastructure, including SSO, MDM, and compliance policies.",
     "Automated manual IT processes, saving 3 hours per week in onboarding/offboarding tasks through script-driven workflows.",
-    "Delivered technical support for C-level executives, managing critical security incidents and high-priority escalations with precision."
+    "Delivered technical support for C-level executives, managing critical security incidents and high-priority escalations with precision.",
+    "Recognized as a 'Best Tech Manager' Finalist by Tech in Motion Chicago; featured speaker at the 'Best Places to Work Chicago' event, celebrating IT leadership and innovation."
   ],
   "workExperience": [
     {
