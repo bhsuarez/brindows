@@ -7,10 +7,24 @@ const StyledLink = styled.a`
 `;
 
 function Resume({ content }) {
-  const { workExperience, education, resumeLink, speakingEngagements, technicalSkills, certifications, citizenship } = content;
+  const { profile, keyAchievements, workExperience, education, resumeLink, speakingEngagements, technicalSkills, certifications, citizenship } = content;
 
   return (
     <div>
+      <h2>Profile</h2>
+      <p>{profile}</p>
+
+      <hr />
+
+      <h2>Key Achievements</h2>
+      <ul>
+        {keyAchievements.map((achievement, idx) => (
+          <li key={idx}>{achievement}</li>
+        ))}
+      </ul>
+
+      <hr />
+
       <h2>Recent Experience</h2>
       {workExperience.map((exp, idx) => (
         <div key={idx}>
