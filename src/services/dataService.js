@@ -127,11 +127,11 @@ export default class DataService {
           hard: [
             {
               name: 'macOS',
-              progress: 100,
+              progress: 99,
             },
             {
               name: 'Windows',
-              progress: 100,
+              progress: 90,
             },
             {
               name: 'Mobile Device Management',
@@ -139,42 +139,22 @@ export default class DataService {
             },
             {
               name: 'Identity and Access Management',
-              progress: 90,
+              progress: 89,
             },
             {
-              name: 'Single Sign On',
-              progress: 90,
+              name: 'SAML',
+              progress: 77,
+            },
+            {
+              name: 'OIDC',
+              progress: 73,
+            },
+            {
+              name: 'Single Sign-on',
+              progress: 70,
             },
             {
               name: 'Python',
-              progress: 80,
-            },
-            {
-              name: 'HTML/CSS',
-              progress: 80,
-            },
-            {
-              name: 'Javascript',
-              progress: 80,
-            },
-            {
-              name: 'Java',
-              progress: 70,
-            },
-            {
-              name: 'AWS',
-              progress: 70,
-            },
-            {
-              name: 'PostgreSQL',
-              progress: 70,
-            },
-            {
-              name: 'Docker',
-              progress: 60,
-            },
-            {
-              name: 'Terraform',
               progress: 60,
             },
           ],
